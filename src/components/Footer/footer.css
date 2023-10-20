@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #023859;
+
+    color: white;
+    font-size: 2rem;
+
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.footer .textoFooter .textoFooterP{
+    margin: 0;
+}
+
+.footer .textoFooter .textoFooterP span {
+    font-weight: 700;
+}
+
+@media (width >= 992px) {
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+
+      height: 65px;
+
+      padding: 0;
+    }
+}

@@ -1,0 +1,39 @@
+.checkoutContador{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin: 10px 0;
+}
+
+.checkoutContador button{
+    width: 30px;
+    height: 30px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #023859;
+    color: white;
+
+    font-weight: bold;
+    font-size: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkoutContador button:hover{
+    background-color: rgba(2, 56, 89, 0.8)
+}
+
+.checkoutContador button:disabled{
+    background-color: grey;
+}
+
+.checkoutContador .redText{
+    font-size: 1.3rem;
+    color: crimson;
+    font-weight: bold;
+}

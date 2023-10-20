@@ -1,0 +1,55 @@
+.info-contacto-box {
+    grid-template-areas: info;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.info-contacto-box .info-contacto {
+    margin-top: 0px;
+    padding: 0;
+    text-align: start;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-contacto-box .info-contacto .email-contacto {
+    line-height: 3.2rem;
+}
+
+.info-contacto-box .info-contacto .email-contacto label {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.info-contacto-box .info-contacto p{
+    font-size: 1.8rem;
+}
+
+.info-contacto-box .info-contacto .redes-contacto a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.info-contacto-box .info-contacto .redes-contacto a p {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.info-contacto-box .info-contacto .direccion p {
+ 
+    line-height: 3rem;
+}
+
+.info-contacto-box .info-contacto .redes-contacto div a {
+    justify-content: start;
+}

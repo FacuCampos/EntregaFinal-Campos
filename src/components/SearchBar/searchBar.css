@@ -1,0 +1,132 @@
+.barraBusqueda{
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #FFF;
+
+    width: 90%;
+    height: 40px;
+
+    margin: 0 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+    grid-area: bus;
+
+    z-index: 1;
+}
+
+.barraBusqueda input{
+    font-size: 2rem;
+    line-height: 2.4rem;
+    border: none;
+    background-color: transparent;
+    flex: 80%;
+    outline: none;
+    margin: 0 15px;
+}
+
+.barraBusqueda ::placeholder{
+    font-style: italic;
+}
+
+.lupa{
+    background-color: #d45726;
+
+    cursor: pointer;
+    
+    height: 38px;
+    width: 70px;
+    
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    
+    color: rgb(255, 252, 242);
+    font-size: 2rem;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lupa:hover{
+    background-color: #e76d3d;
+}
+
+.respuestaBusqueda{
+    background-color: #faf0da;
+
+    height: fit-content;
+    max-height: calc(100vh - 20px);
+
+    overflow-y: scroll;
+
+    width: calc(90% - 70px);
+
+    margin: 0 40px;
+    padding-top: 38px;
+
+    border-radius: 8px;
+    border: 1px solid black;
+
+    grid-area: bus;
+
+    z-index: 0;
+
+    scrollbar-width: thin;
+    scrollbar-color: grey transparent;
+}
+
+.respuestaBusqueda hr{
+    margin: 0;
+}
+
+.respuestaBusqueda .searchLink {
+    display: flex;
+    height: 100px;
+    padding: 10px 20px;
+    gap: 20px;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.5);
+
+    text-decoration: none;
+
+}
+
+.respuestaBusqueda .searchLink .searchImg {
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.respuestaBusqueda .searchLink .searchTexto{
+    font-size: 2rem;
+    color: black;
+
+    font-weight: 500;
+}
+  
+/* Works on Chrome, Edge, and Safari */
+.respuestaBusqueda::-webkit-scrollbar {
+    width: 10px;
+    
+}
+
+.respuestaBusqueda::-webkit-scrollbar-track {
+    background: transparent;
+    
+}
+
+.respuestaBusqueda::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 10px;
+    border: 1px solid black;
+    border-right: none;
+}

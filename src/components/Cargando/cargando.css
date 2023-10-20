@@ -1,0 +1,14 @@
+.divListaVacia{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.divListaVacia h2{
+    font-size: 3rem;
+    color: #023859;
+}

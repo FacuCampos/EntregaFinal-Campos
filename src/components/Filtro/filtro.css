@@ -1,0 +1,86 @@
+.filtroContenedor{
+    left: 0;
+    top: 80px;
+    width: 100%;
+    height: calc(100% + 50px);
+    background-color: rgb(190, 190, 190);
+}
+
+.filtroContenedor .filtroFixed{
+    position: sticky;
+    top: 100px;
+    left: 0;
+    width: 100%;
+}
+
+.filtroContenedor .filtroFixed h2{
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.filtroContenedor .filtroFixed ul{
+    padding: 0;
+}
+
+.filtroContenedor .filtroFixed .filtro{
+    list-style: none;
+    width: 100%;
+}
+
+.filtroContenedor .filtroFixed .filtro .categoria h3{
+    font-size: 2.25rem;
+    margin: 30px 20px 20px 20px;
+}
+
+.filtroContenedor .filtroFixed .filtro .categoria ul{
+    list-style: none;
+    width: 100%;
+}
+
+.filtroContenedor .filtroFixed .filtro hr{
+    margin: 0;
+}
+
+.filtroLi{
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.filtroLi:hover{
+    background-color: rgba(2, 56, 89, 0.75);
+}
+
+.filtroLi:hover .filtroLink p{
+    color: white;
+}
+
+.filtroLi .filtroLink{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    text-decoration: none;
+}
+
+.filtroLi .filtroLink.active{
+    background-color: rgba(2, 56, 89, .75);
+    cursor: default;
+}
+
+.filtroLi:hover .filtroLink.active{
+    background-color: transparent;
+}
+
+.filtroLi .filtroLink.active p{
+    color: white;
+}
+
+.filtroLi .filtroLink p{
+    margin: 0;
+    font-size: 2rem;
+    color: black;
+    transition: all .2s;
+    margin-left: 15px;
+}

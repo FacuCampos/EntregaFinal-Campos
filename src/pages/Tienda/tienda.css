@@ -1,0 +1,17 @@
+.tienda{
+    display: grid;
+    grid-template-columns: 318px 1fr;
+    width: 100%;
+}
+
+.tienda .productosContenedor{
+    width: 100%;
+    padding: 0 50px 50px 50px;
+}
+.tienda .productosContenedor hr{
+    margin-bottom: 50px;
+}
+
+.tienda .productosContenedor .productListContenedor{
+    min-height: calc(100vh - 346px);
+}

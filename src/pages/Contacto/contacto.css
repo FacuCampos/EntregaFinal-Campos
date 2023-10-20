@@ -1,0 +1,25 @@
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    width: 80%;
+
+    margin: 0 auto;
+}
+
+.contacto hr{
+    width: 90%;
+    margin: 0;
+}
+
+.escribenos {
+    display: grid;
+    grid-template-areas: "form form form info";
+    gap: 50px;
+    
+    width: 100%;
+
+    margin: 30px auto 0 auto;
+}

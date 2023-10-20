@@ -1,0 +1,47 @@
+.carritoContainer{
+    background-color: rgba(145, 145, 145, 0.5019607843);
+    box-shadow: 0 4px 8px 0 rgba(30, 30, 30, 0.2), 0 6px 20px 0 rgba(30, 30, 30, 0.2);
+    border-radius: 10px;
+    height: fit-content;
+
+    grid-area: cart;
+}
+
+.carritoContainer .head2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cartIcon{
+    font-size: 2.5rem;
+}
+
+.carritoContainer .cartContainerPie{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.carritoContainer .cartContainerPie .precioTotal{
+    text-align: right;
+    margin: 20px;
+}
+
+.carritoContainer .cartContainerPie .precioTotal span{
+    font-weight: bold;
+}
+
+.carritoContainer .cartContainerPie button{
+    padding: 5px 15px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: brown;
+    border: none;
+    border-bottom-left-radius: 10px;
+}
+
+.carritoContainer .cartContainerPie button:hover{
+    background-color: rgba(165, 42, 42, 0.8); 
+}

@@ -1,0 +1,146 @@
+.pagarSeccion{
+    background-color: rgba(145, 145, 145, 0.5019607843);
+    box-shadow: 0 4px 8px 0 rgba(30, 30, 30, 0.2), 0 6px 20px 0 rgba(30, 30, 30, 0.2);
+
+    border-radius: 10px;
+
+    height: fit-content;
+
+    grid-area: pay;
+}
+
+.checkoutForm{
+    width: 100%;
+
+    text-align: start;
+
+    padding: 0 20px 20px 20px;
+
+    font-size: 1.6rem;
+
+    display: grid;
+    gap: 10px;
+
+    grid-template-areas:
+    'nombre apellido'
+    'dni dni'
+    'tele tele'
+    'email email'
+    'confEmail confEmail'
+    'separador separador'
+    'tarj tarj'
+    'vto cod'
+    'btn btn';
+}
+
+.checkoutForm .campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.nombre{
+    grid-area: nombre;
+}
+
+.apellido{
+    grid-area: apellido;
+}
+
+.dni{
+    grid-area: dni;
+}
+
+.tele{
+    grid-area: tele;
+}
+
+.email{
+    grid-area: email;
+}
+
+.confEmail{
+    grid-area: confEmail;
+}
+
+.separadorCheckout{
+    grid-area: separador;
+}
+
+.tarj{
+    grid-area: tarj;
+}
+
+.vto{
+    grid-area: vto;
+}
+
+.cod{
+    grid-area: cod;
+}
+
+.btnBox{
+    grid-area: btn;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+
+.btnBox button {
+    background-color: #1b3039;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    color: #fffcf4;
+    cursor: pointer;
+    position: relative;
+    right: 0;
+}
+
+.btnBox button:hover {
+    background-color: #2b4d5b;
+}
+
+.btnBox button:disabled{
+    background-color: rgba(2, 56, 89, 0.75);
+    cursor: default;
+}
+
+.rojo{
+    color: red;
+}
+
+.pagoCompletado{
+    width: 100%;
+    text-align: center;
+}
+
+.pagoCompletado .ticket{
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.pagoCompletado .ticket p{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.pagoCompletado .ticket ul{
+    text-align: start;
+    margin: 0 auto;
+    width: 75%;
+    gap: 10px;
+}
+
+.pagoCompletado .ticket ul li{
+    margin: 10px 0;
+}
+
+.pagoCompletado .ticket .ticketTotal{
+    text-align: right;
+}
